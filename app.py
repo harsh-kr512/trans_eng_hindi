@@ -46,7 +46,7 @@ if not st.session_state.authenticated:
                 st.session_state.authenticated = True
                 st.session_state.username = username
                 st.success("Login successful!")
-                st.experimental_rerun()
+                st.st.stop() 
             else:
                 st.error("Invalid username or password.")
 
