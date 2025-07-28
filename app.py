@@ -68,7 +68,7 @@ else:
     if st.sidebar.button("Logout"):
         st.session_state.authenticated = False
         st.session_state.username = ""
-        st.experimental_rerun()
+        st.stop()
 
     st.title("English to Hindi Translator")
     st.markdown("Use AI to translate English text into Hindi with real-world examples.")
