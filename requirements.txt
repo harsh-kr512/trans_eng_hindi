@@ -1,0 +1,9 @@
+openai
+pandas
+openpyxl
+flask
+flask_sqlalchemy
+dotenv
+streamlit
+altair<5
+werkzeug
